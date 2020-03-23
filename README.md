@@ -1,5 +1,4 @@
-<img src="https://lucianoratamero.github.io/img/cover-git-1.png" width="200px"
-align="center">
+<img align="center" src="https://lucianoratamero.github.io/img/cover-git-1.png" width="200px">
 
 # Usando Git + Github
 
