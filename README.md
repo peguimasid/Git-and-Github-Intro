@@ -1,7 +1,8 @@
-<img src="https://lucianoratamero.github.io/img/cover-git-1.png" width="200px"
-align="center">
+<h1 align="center">
+  <img src="https://lucianoratamero.github.io/img/cover-git-1.png" width="300px">
+  <h1 align="center">Usando Git & Github</h1>
+</h1>
 
-# Usando Git + Github
 
 Vamos aprender os conceitos mais importantes sobre git, para isso você ja precisa ter ele instalado na sua maquina, algo facil de se achar na internet.
 
