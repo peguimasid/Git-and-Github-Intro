@@ -55,3 +55,12 @@ Vá no seu perfil no Github e crie um repositorio, depois de criado siga essas i
 Todos esses passos serāo fornecidos quando voce criar o repositório
 
 Depois de rodar o ultimo passo todo seu codigo ja estar disponivel no seu repositório no ***Github***
+
+### Clonando um repositorio existente
+
+`git clone <url do repositorio>`
+***EX:*** `git clone https://github.com/peguimasid/Git-and-Github-Intro`
+
+- `git log` mostra todos os commits
+
+
