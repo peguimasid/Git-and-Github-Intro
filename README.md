@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://lucianoratamero.github.io/img/cover-git-1.png" width="200px">
+  <img src="https://lucianoratamero.github.io/img/cover-git-1.png" width="300px">
 </h1>
 
 # Usando Git + Github
