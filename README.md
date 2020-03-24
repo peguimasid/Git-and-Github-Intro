@@ -62,5 +62,46 @@ Depois de rodar o ultimo passo todo seu codigo ja estar disponivel no seu reposi
 ***EX:*** `git clone https://github.com/peguimasid/Git-and-Github-Intro`
 
 - `git log` mostra todos os commits
+- `git push` manda as aleterações pro ***Github***
 
+### Adicionar ramificaçāo para nova feature
 
+Adicionamos uma nova ramificaçāo quando queremos salvar o codigo atual mas implementar uma nova feature, debugar o codigo, ou qualquer outro motivo que desejemos salvar o codigo atual.
+
+- `git checkout -b <nome da feature>`
+***EX:*** `git checkout -b feature/testando-ramificacao`
+
+com isso o terminal deixara de ser assim:
+
+`User in using-git-and-github on  master`
+
+e ficará assim:
+
+`User in using-git-and-github on  feature/testando-ramificacao`
+
+ai com isso nosso master fica salvo e podemos voltar para ele a qualquer momento usando o comando: 
+
+`git checkout master`
+
+e de novo voltar para a feature usando o comando:
+
+`git checkout feature/testando-ramificacao`
+
+### Puxando dados da Feature pro Master
+
+É bom manter na ideia que a Branch ***master*** é aquela que esta em producao.
+
+Vamos supor que eu acabei de fazer a feature e agora eu quero puxar ela pro ***master***.
+
+Podemos fazer assim:
+
+1. Entro na feature. ***EX:*** `git checkout -b feature/testando-ramificacao`
+2. Rodo: `git push origin feature/testando-ramificacao`
+
+depois de fazermos isso, se formos no Github veremos uma mensagem assim:
+
+<img src="./assets/pullrequest.png" width="150px">
+
+3. Se clicarmos ***Compare & pull request*** nos iremos para uma pagina onde descreveremos o que fizemos, e outros desenvolvedores poderāo avaliar se o código esta bom ou nāo. Voce pode escolher os devs na aba `Reviewers`
+
+4. Quando ele avaliar e clicar em `Merge pull request` nosso codigo da nova feature ira todo para o ***master***
