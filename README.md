@@ -100,7 +100,7 @@ Podemos fazer assim:
 
 depois de fazermos isso, se formos no Github veremos uma mensagem assim:
 
-<img src="./assets/pullrequets.png" width="150px">
+<img src="./assets/pullrequets.png" width="400px">
 
 3. Se clicarmos ***Compare & pull request*** nos iremos para uma pagina onde descreveremos o que fizemos, e outros desenvolvedores poderāo avaliar se o código esta bom ou nāo. Voce pode escolher os devs na aba `Reviewers`
 
