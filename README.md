@@ -95,7 +95,7 @@ Vamos supor que eu acabei de fazer a feature e agora eu quero puxar ela pro ***m
 
 Podemos fazer assim:
 
-1. Entro na feature. ***EX:*** `git checkout -b feature/testando-ramificacao`
+1. Entro na feature. ***EXEMPLO:*** `git checkout feature/testando-ramificacao`
 2. Rodo: `git push origin feature/testando-ramificacao`
 
 depois de fazermos isso, se formos no Github veremos uma mensagem assim:
