@@ -106,4 +106,4 @@ depois de fazermos isso, se formos no Github veremos uma mensagem assim:
 
 4. Quando ele avaliar e clicar em `Merge pull request` nosso codigo da nova feature ira todo para o ***master*** online
 
-5. e para trazermos para nossa maquina a nova feature é só rodar `git pull` e todo codigo que ta na branch ***master*** no github vira para o ***master*** do nosso computador
+5. e para trazermos para nossa maquina a nova feature é só rodar `git pull` e todo codigo que ta na branch ***master*** no github vira para o ***master*** do nosso computador.
